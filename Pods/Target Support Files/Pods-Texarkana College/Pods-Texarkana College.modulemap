@@ -1,0 +1,6 @@
+framework module Pods_Texarkana_College {
+  umbrella header "Pods-Texarkana College-umbrella.h"
+
+  export *
+  module * { export * }
+}
