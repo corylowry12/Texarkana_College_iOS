@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		3204410926BAF73E00B7F254 /* GradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204410826BAF73E00B7F254 /* GradesTableViewCell.swift */; };
 		3204410B26BAF78500B7F254 /* GradesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204410A26BAF78500B7F254 /* GradesTableViewController.swift */; };
 		3204410F26BB1D8200B7F254 /* AverageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204410E26BB1D8200B7F254 /* AverageTableViewCell.swift */; };
+		322C560326BC601A00A4E8DD /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C560226BC601A00A4E8DD /* GoogleAppMeasurement.xcframework */; };
+		322C560726BC602A00A4E8DD /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C560626BC602A00A4E8DD /* GoogleMobileAds.xcframework */; };
+		322C560A26BC604300A4E8DD /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C560926BC604300A4E8DD /* GoogleUtilities.xcframework */; };
+		322C560F26BC606000A4E8DD /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C560C26BC606000A4E8DD /* nanopb.xcframework */; };
+		322C561126BC606000A4E8DD /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C560D26BC606000A4E8DD /* PromisesObjC.xcframework */; };
+		322C561326BC606000A4E8DD /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322C560E26BC606000A4E8DD /* UserMessagingPlatform.xcframework */; };
 		329B5231269144D60012E307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B5230269144D60012E307 /* AppDelegate.swift */; };
 		329B5233269144D60012E307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B5232269144D60012E307 /* SceneDelegate.swift */; };
 		329B5235269144D60012E307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B5234269144D60012E307 /* ViewController.swift */; };
@@ -31,6 +37,12 @@
 		3204410826BAF73E00B7F254 /* GradesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesTableViewCell.swift; sourceTree = "<group>"; };
 		3204410A26BAF78500B7F254 /* GradesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesTableViewController.swift; sourceTree = "<group>"; };
 		3204410E26BB1D8200B7F254 /* AverageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageTableViewCell.swift; sourceTree = "<group>"; };
+		322C560226BC601A00A4E8DD /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = "../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/GoogleAppMeasurement.xcframework"; sourceTree = "<group>"; };
+		322C560626BC602A00A4E8DD /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		322C560926BC604300A4E8DD /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = "../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/GoogleUtilities.xcframework"; sourceTree = "<group>"; };
+		322C560C26BC606000A4E8DD /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = "../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/nanopb.xcframework"; sourceTree = "<group>"; };
+		322C560D26BC606000A4E8DD /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PromisesObjC.xcframework; path = "../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/PromisesObjC.xcframework"; sourceTree = "<group>"; };
+		322C560E26BC606000A4E8DD /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = "../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/UserMessagingPlatform.xcframework"; sourceTree = "<group>"; };
 		329B522D269144D60012E307 /* Texarkana College.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texarkana College.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		329B5230269144D60012E307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		329B5232269144D60012E307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,12 +51,6 @@
 		329B5239269144D80012E307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329B523C269144D80012E307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329B523E269144D80012E307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		329B5245269148A10012E307 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/GoogleAppMeasurement.xcframework"; sourceTree = "<group>"; };
-		329B5249269148AF0012E307 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
-		329B524C269148BB0012E307 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/GoogleUtilities.xcframework"; sourceTree = "<group>"; };
-		329B524F269148CA0012E307 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/nanopb.xcframework"; sourceTree = "<group>"; };
-		329B5252269148D60012E307 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PromisesObjC.xcframework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/PromisesObjC.xcframework"; sourceTree = "<group>"; };
-		329B5255269148E10012E307 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-8.7.0/UserMessagingPlatform.xcframework"; sourceTree = "<group>"; };
 		E6C59776DCB506F4C3475BA0 /* Pods-Texarkana College.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Texarkana College.release.xcconfig"; path = "Target Support Files/Pods-Texarkana College/Pods-Texarkana College.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322C560326BC601A00A4E8DD /* GoogleAppMeasurement.xcframework in Frameworks */,
+				322C561326BC606000A4E8DD /* UserMessagingPlatform.xcframework in Frameworks */,
+				322C560726BC602A00A4E8DD /* GoogleMobileAds.xcframework in Frameworks */,
 				99EE1FBE19D401F468A45085 /* Pods_Texarkana_College.framework in Frameworks */,
+				322C561126BC606000A4E8DD /* PromisesObjC.xcframework in Frameworks */,
+				322C560F26BC606000A4E8DD /* nanopb.xcframework in Frameworks */,
+				322C560A26BC604300A4E8DD /* GoogleUtilities.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +113,12 @@
 		329B5244269148A10012E307 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				329B5255269148E10012E307 /* UserMessagingPlatform.xcframework */,
-				329B5252269148D60012E307 /* PromisesObjC.xcframework */,
-				329B524F269148CA0012E307 /* nanopb.xcframework */,
-				329B524C269148BB0012E307 /* GoogleUtilities.xcframework */,
-				329B5249269148AF0012E307 /* GoogleMobileAds.xcframework */,
-				329B5245269148A10012E307 /* GoogleAppMeasurement.xcframework */,
+				322C560C26BC606000A4E8DD /* nanopb.xcframework */,
+				322C560D26BC606000A4E8DD /* PromisesObjC.xcframework */,
+				322C560E26BC606000A4E8DD /* UserMessagingPlatform.xcframework */,
+				322C560926BC604300A4E8DD /* GoogleUtilities.xcframework */,
+				322C560626BC602A00A4E8DD /* GoogleMobileAds.xcframework */,
+				322C560226BC601A00A4E8DD /* GoogleAppMeasurement.xcframework */,
 				0754BFC411A95984B19AA82B /* Pods_Texarkana_College.framework */,
 			);
 			name = Frameworks;
@@ -392,6 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = DP6RQZGX67;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -402,6 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cory.TexarkanaCollege;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = DP6RQZGX67;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,6 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cory.TexarkanaCollege;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -10,6 +10,7 @@ import UIKit
 
 class GradesTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var gradesLabel: UILabel!
     @IBOutlet weak var weightLabel: UILabel!
     
